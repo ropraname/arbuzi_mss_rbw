@@ -1,0 +1,15 @@
+misis_rbw_autonomy:
+  ros__parameters:
+    camera_topic: /camera/image_raw
+    odom_topic: /odom
+    cmd_vel_topic: /cmd_vel
+    debug_topic: /misis_rbw/debug_image
+    publish_debug: true
+    use_odom_pose: false
+    control_rate_hz: 10.0
+    match_duration_s: 90.0
+    max_linear_speed: 0.24
+    max_angular_speed: 1.4
+    home_x: 0.18
+    home_y: 0.18
+    home_yaw: 0.0

@@ -12,3 +12,10 @@ models/**/*\~
 *.swo
 *.tmp
 *.temp
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+install/
+log/
+.DS_Store
